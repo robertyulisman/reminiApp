@@ -8,21 +8,5 @@ export default defineConfig(({ mode }) => {
   return {
     // vite config
     plugins: [react()],
-
-    // server: {
-    //   proxy: {
-    //     "/api": {
-    //       target: process.env.VITE_BACKEND_URL,
-    //       changeOrigin: true,
-    //       secure: false,
-    //       ws: true,
-    //     },
-    //   },
-    //   port: 3000,
-    // },
-    // build: {
-    //   chunkSizeWarningLimit: 1600,
-    //   sourcemap: true,
-    // },
   };
 });
