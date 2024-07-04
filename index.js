@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://remini-web-self.vercel.app",
+    origin: "https://remini-app-web.vercel.app",
     methods: "GET, POST, PUT, DELETE",
     credentials: true,
   })
